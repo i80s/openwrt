@@ -18,12 +18,12 @@
 
 		led_system: system {
 			label = "hc5761:blue:system";
-			gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
 		};
 
 		internet {
 			label = "hc5761:blue:internet";
-			gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 12 GPIO_ACTIVE_LOW>;
 		};
 
 		wlan2g {
@@ -33,7 +33,7 @@
 
 		wlan5g {
 			label = "hc5761:blue:wlan5g";
-			gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
 		};
 	};
 };

@@ -372,7 +372,7 @@ ramips_setup_interfaces()
 		;;
 	hc5761)
 		ucidef_add_switch "switch0" \
-			"1:lan" "4:lan" "0:wan" "6@eth0"
+			"0:lan" "1:lan" "2:lan" "3:lan" "4:wan" "6@eth0"
 		;;
 	mzk-dp150n|\
 	vocore-8M|\
