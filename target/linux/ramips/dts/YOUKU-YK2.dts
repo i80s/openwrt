@@ -31,13 +31,13 @@
 
 		led_power: power {
 			label = "yk-l2:blue:power";
-			gpios = <&gpio0 13 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
 			default-state = "on";
 		};
 
 		led_wps: wps {
 			label = "yk-l2:blue:wps";
-			gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
 		};
 
 		usb {
