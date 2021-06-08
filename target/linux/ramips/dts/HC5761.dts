@@ -35,6 +35,11 @@
 			label = "hc5761:blue:wlan5g";
 			gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
 		};
+
+		yellow {
+			label = "hc5761:yellow:status";
+			gpios = <&gpio0 9 GPIO_ACTIVE_LOW>;
+		};
 	};
 };
 
